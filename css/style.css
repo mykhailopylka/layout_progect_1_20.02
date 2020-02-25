@@ -5,16 +5,22 @@ box-sizing: border-box;
 }
 // 1400x1525
 body {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   max-width: 1400px;
-  max-height: 1550px;
   background-color: #FDFDFD;  
 }
-.conteiner {
-  width: 940px;
+main, header, footer {
+    width: 100%;
+}
+main {
+  flex-grow: 1;
+}
+.conteiner {  
+  max-width: 940px;
   margin: 0 auto;
-  height: 1000px;
   color: #454545;
 }
 
@@ -138,4 +144,18 @@ body {
   font-size: 12px;
   margin-top: 18px;
   margin-bottom: 50px;
+}
+/* --  basment ------------------------*/
+.basment {
+  width: 100%;
+  height: 70px;
+  background: #F7F7F7;
+}
+.basment-text {
+  display: flex;
+  justify-content: space-between;  
+  width: 67%;
+  margin: auto;
+  padding-top: 25px;
+  color: #888888;
 }
