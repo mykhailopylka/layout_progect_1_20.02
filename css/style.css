@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
   max-width: 1400px;
-  background-color: #FDFDFD;  
+  background-color: #FDFDFD;
 }
 main, header, footer {
     width: 100%;
@@ -18,16 +18,46 @@ main, header, footer {
 main {
   flex-grow: 1;
 }
+a {
+  text-decoration: none;
+  color: #454545;
+}
+a:hover {
+  color: #a5a5a5;
+  cursor: pointer;
+  transform: .5s;
+}
+/* fonts ===============*/
+.font-upside-menu{
+  color: #a5a5a5;
+  font-size: 12px
+}
+.font_text {
+  font-family: helveticaneuemedium;
+  font-size: 12px;
+  font-weight: 400;
+}
+/* /fonts ===============*/
 .conteiner {  
   max-width: 940px;
   margin: 0 auto;
   color: #454545;
+  font-family: bebas_neueregular;
+  font-size: 20px;
+  font-weight: bold;
 }
-
 .upside_header {
   display: flex;
   height: 83px;
   align-items: flex-end;
+}
+.upside_header span {
+  font-family: pacificoregular;
+  font-size: 42px;
+  color: #454545;
+}
+.upside_header span:hover {
+  cursor: pointer;
 }
 .upside-menu {
   display: flex;
@@ -39,7 +69,6 @@ main {
 .upside-menu ul, li {
   list-style-type: none;
 }
-
 .header_logo {
   position: relative;
   text-transform: uppercase;
@@ -52,10 +81,16 @@ main {
   width: 215px;
   height: 73px;
   background: #3E3E3E;
+}
+.header_logo-announcement a {
   color: #fff;
 }
 .header_logo-announcement-color {
   color: #9B9B9B;
+  font-size: 14px;
+}
+.header_logo-announcement-fontsize {
+  font-size: 20px;
 }
 .header_logo-announcement ul {
   margin-left: -18px;
@@ -73,6 +108,7 @@ main {
 .article_1 span, p {
   margin: 0 20px;
   padding: 0;
+  font-family: pacificoregular;
 }
 .article_1 span {
   margin-top: 10px;
@@ -123,6 +159,7 @@ main {
   justify-content: space-between;
   width: 100%;
   font-size: 18px;
+  font-weight: 400;
   margin: 65px 0 54px;
 }
 /* --  wrapper-my-work ------------------------*/

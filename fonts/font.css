@@ -1,17 +1,31 @@
-
 @font-face {
-    font-family: 'pill_gothic_300mgthin';
-    src: url('pillgothic300mg-thin-webfont.woff2') format('woff2'),
-         url('pillgothic300mg-thin-webfont.woff') format('woff');
+    font-family: 'pacificoregular';
+    src: url('pacifico-webfont.woff2') format('woff2'),
+         url('pacifico-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
-    font-family: 'fira_sansbook';
-    src: url('firasansbook-webfont.woff2') format('woff2'),
-         url('firasansbook-webfont.woff') format('woff');
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-regular-webfont.woff2') format('woff2'),
+         url('bebasneue-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'helveticaneuemedium';
+    src: url('helveticaneue_medium-webfont.woff2') format('woff2'),
+         url('helveticaneue_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'wolfgang_amadeus_mozartRg';
+    src: url('wolfgang_amadeus_mozart-webfont.woff2') format('woff2'),
+         url('wolfgang_amadeus_mozart-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
