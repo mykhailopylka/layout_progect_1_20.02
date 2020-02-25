@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'pacificoregular';
-    src: url('pacifico-webfont.woff2') format('woff2'),
-         url('pacifico-webfont.woff') format('woff');
+    src: url('Pacificoregular.woff2') format('woff2'),
+         url('Pacificoregular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'bebas_neueregular';
-    src: url('bebasneue-regular-webfont.woff2') format('woff2'),
-         url('bebasneue-regular-webfont.woff') format('woff');
+    src: url('bebasneuebold.woff2') format('woff2'),
+         url('bebasneuebold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

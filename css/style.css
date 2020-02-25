@@ -78,7 +78,7 @@ a:hover {
   position: absolute;
   display: flex;
   align-items: center;
-  margin-top: -77px;
+  margin-top: -79px;
   width: 215px;
   height: 73px;
   background: #3E3E3E;
@@ -112,6 +112,7 @@ a:hover {
   font-family: pacificoregular;
 }
 .article_1 span {
+  font-family: bebas_neueregular;
   margin-top: 10px;
 }
 .article_1 p {
