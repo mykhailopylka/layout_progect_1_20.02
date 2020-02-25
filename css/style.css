@@ -51,13 +51,14 @@ a:hover {
   height: 83px;
   align-items: flex-end;
 }
-.upside_header span {
+.upside_header-logoname {
   font-family: pacificoregular;
   font-size: 42px;
   color: #454545;
 }
-.upside_header span:hover {
+.upside_header-logoname:hover {
   cursor: pointer;
+  color: #454545;
 }
 .upside-menu {
   display: flex;
